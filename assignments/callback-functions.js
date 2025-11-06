@@ -6,6 +6,10 @@ function greet(name, callback){
 greet("Himabindu", function(){
     console.log("Have a nice day!")
 });
+
+
+
+
 // 2.callback with order
 function cookRice(callback){
     console.log("Cooking rice...");
@@ -18,7 +22,9 @@ function eatRice() {
     console.log("Eating now");
 }
 cookRice(eatRice);
- 
+
+
+
 
 //3.Countdown using setInterval
 function startCountdown(){
@@ -35,6 +41,8 @@ function startCountdown(){
 startCountdown();
 
 
+
+
 //4.setTimeout + callback chain
 function washClothes(callback){
     console.log("Washing clothes...");
@@ -47,6 +55,9 @@ function dryClothes() {
     console.log("Drying clothes...");
 }
 washClothes(dryClothes);
+
+
+
 
 //5.Button click simulation ------> callback-functions.html
 //6. Repeated callback practice
@@ -62,6 +73,8 @@ function repeatMessage(message, times) {
 }
 repeatMessage("Practice makes perfect!",3);
 
+
+
 //7.Custom delay function
 function waitAndSay(message, delay){
     setTimeout(function(){
@@ -72,6 +85,9 @@ function waitAndSay(message, delay){
 waitAndSay("Good morning!", 1000);
 waitAndSay("Good afternoon!",2000);
 waitAndSay("Good night!",3000);
+
+
+
 
 //8.Callback inside callback(nesting)
 function makeTea(callback) {
