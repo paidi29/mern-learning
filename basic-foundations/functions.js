@@ -7,18 +7,18 @@
 // }
 // greet()
 // greetArrow()
-const course = {
-    courseName: "MERN + DSA",
-    read: function(){
-        this.bindu = "batch-4"
-        console.log("this object inside read function:",this)
-    },
-    write: () => {
-        console.log("this object inside write function:",this)
-        setTimeout(() => {
-            console.log(this);
-        },1000)
-    }
-}
-course.write()
-course.read()
+// const course = {
+//     courseName: "MERN + DSA",
+//     read: function(){
+//         this.bindu = "batch-4"
+//         console.log("this object inside read function:",this)
+//     },
+//     write: () => {
+//         console.log("this object inside write function:",this)
+//         setTimeout(() => {
+//             console.log(this);
+//         },1000)
+//     }
+// }
+// course.write()
+// course.read()
